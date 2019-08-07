@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tamudashe | Portfolio</title>
+    <link rel="icon" href="media/t.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Showcase -->
+    <header id="showcase">
+        <!-- Navigation Bar -->
+        <nav>
+            <ul id="nav">
+                <li></li>
+                <li class="bc">
+                    <a href="#section_a" class="btn">
+                        About
+                    </a>
+                </li>
+                <li class="bc">
+                    <a href="#section_b" class="btn">
+                        Experience
+                    </a>
+                </li>
+                <li class="bc">
+                    <a href="#section_c" class="btn">
+                        Projects
+                    </a>
+                </li>
+                <li class="bc">
+                    <a href="#section_e" class="btn">
+                        Contact
+                    </a>
+                </li>
+                <li class="resume">
+                    <a href="https://drive.google.com/open?id=1tUNK1tWR6aj3IyZz4gGZXBEEr8AMY4wd" target="_blank">
+                        Resume
+                    </a>
+                </li>
+                <li></li>
+            </ul>
+        </nav>
+        <div class="content_wrap">
+            <h1></h1>
+        </div>
+    </header>
+
+    <!-- Main Area -->
+    <main>
+        <!-- About -->
+        <div id="section_a" class="grid">
+            <div>
+                <h2 class="section">About me</h2>
+                <p>
+                    Hey there! I'm a computer science major who enjoys working with data structures and algorithms in artificial intelligence.
+                    <br><br>
+                    I'm currently a sophomore in College. I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!
+                </p>
+                <h3>Here's a list of my skills: </h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Html & CSS</li>
+                    <li>JavaScript</li>
+                    <li>UI Design</li>
+                    <li>Data Structures</li>
+                </ul>
+            </div>
+            <div id="image" class="grid">
+                <img src="media/tam.png" alt="abc">
+            </div>
+        </div>
+        <!-- Experience -->
+        <section id="section_b" class="grid">
+            <h2 class="section">Where I've worked</h2>
+            <div class="exp">
+                <div class="exp_left">
+                    <button class="experience" onclick="openExperience(event, 'un')" id="defaultOpen">Data Analysis</button>
+                    <button class="experience" onclick="openExperience(event, 'deux')">Fall 2018 Research</button>
+                    <button class="experience" onclick="openExperience(event, 'trois')">Summer 2018 Research</button>
+                    <button class="experience" onclick="openExperience(event, 'quatre')">Physics Tutor</button>
+                    <button class="experience" onclick="openExperience(event, 'cinq')">Chemistry Tutor</button>
+                </div>
+                <div class="exp_right">
+                    <div id="un" class="tabcontent">
+                        <h3>Data Analysis Research</h3>
+                        <p>I am currently working with the Physics Department on improving the efficiency of experiments using data analysis. </p>
+                    </div>
+
+                    <div id="deux" class="tabcontent">
+                        <h3> Spring 2018, Fall 2018 Research Assistant</h3>
+                        <p>I was responsible for analysis of GC-MS chromatogram of Flavonoid tests using the Agilent Chem-station data analysis. .</p>
+                    </div>
+
+                    <div id="trois" class="tabcontent">
+                        <h3>Summer 2018 Research Assistant</h3>
+                        <p>I was responsible for analysis of GC-MS chromatogram of Flavonoid tests using the Agilent Chem-station data analysis. .</p>
+                    </div>
+
+                    <div id="quatre" class="tabcontent">
+                        <h3>Peer Physics Tutor</h3>
+                        <p>I provide help to fellow students on an individual or small group basis to improve their academic performance in Calculus based Physics. </p>
+                    </div>
+                    <div id="cinq" class="tabcontent">
+                        <h3>Peer Chemistry Tutor</h3>
+                        <p>I provide help to fellow students on an individual or small group basis to improve their academic performance in Chemistry</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="section_c" class="grid">
+            <h2 class="section">Stuff I've created</h2>
+            <div class="project1">
+                <div class="main_projects">
+                    <img src="media/time.jpg" alt="Search Engine">
+                </div>
+                <div class="sidebar">
+                    <h2>Search Engine</h2>
+                    <p>Used Web-scrapping to design a custom search engine</p>
+                    <a href="https://www.tamudashe.com/" target="_blank">
+                        <img src="media/github.svg" alt="github">
+                    </a>
+                </div>
+            </div>
+
+            <div class="project2">
+                <div class="sidebar">
+                    <h2>Young Inventors Page</h2>
+                    <p>This page showcases innovative projects. It features Young Inventors at the National University of Science and Technology are participating in.</p>
+                    <a href="https://www.tamudashe.com/" target="_blank">
+                        <img src="media/github.svg" alt="github">
+                    </a>
+                </div>
+                <div class="main_projects">
+                    <img src="media/a.jpg" alt="Young Inventors Page">
+                </div>
+            </div>
+
+            <div class="project1">
+                <div class="main_projects">
+                    <img src="media/project11.png" alt="art website">
+                </div>
+                <div class="sidebar">
+                    <h2>Portrait Art Website</h2>
+                    <p>Designed a responsive website for my portrait artwork</p>
+                    <a href="https://www.tamudashe.com/" target="_blank">
+                        <img src="media/github.svg" alt="github">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Projects -->
+        <section id="section_d">
+            <h2 class="op">Other Projects</h2>
+            <div class="projects">
+                <div class="box">
+                    <h3></h3>
+                </div>
+                <div class="box">
+                    <h3></h3>
+                </div>
+                <div class="box">
+                    <h3></h3>
+                </div>
+                <div class="box">
+                    <h3></h3>
+                </div>
+                <div class="box">
+                    <h3></h3>
+                </div>
+                <div class="box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="explore">
+                <button class="viewMore button">Explore More</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Contact -->
+        <div id="section_e">
+            <h4>Contact me</h4>
+            <p>
+                Alcorn State University <br>
+                1000 ASU Drive 701 <br>
+                Lorman, Mississippi 39096-7500
+            </p>
+            <a href="mailto:tamudashe@gmail.com" class="button">
+                Say Hi!
+            </a>
+            <div class="social_media">
+                <a href="https://www.linkedin.com/in/tamudashe/" target="_blank">
+                    <img src="media/linkedin.svg" alt="linkedin">
+                </a>
+                <a href="https://www.instagram.com/tamudashe/" target="_blank">
+                    <img src="media/instagram.svg" alt="instagram">
+                </a>
+                <a href="https://twitter.com/tamudashe" target="_blank">
+                    <img src="media/twitter.svg" alt="twitter">
+                </a>
+                <a href="https://github.com/tamudashe" target="_blank">
+                    <img src="media/github.svg" alt="github">
+                </a>
+            </div>
+        </div>
+
+        <div id="main_footer" class="grid">
+            Copyright &copy; 2019 Tamudashe P. Ngara
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
