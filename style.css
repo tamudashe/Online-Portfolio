@@ -301,7 +301,6 @@ main .section_a1 span
 main .section_a
 {
     text-align: center;
-
     background: #e66d6d;
 }
 main .section_a p
@@ -323,11 +322,10 @@ main .section_a .section_a2 h2
 
 main .section_a .section_a2
 {
-    width: 70vw;
-    margin: auto;
     padding: 1rem;
 
     color: rgb(51, 51, 51);
+    margin: auto;
 }
 
 /* section b  */
@@ -568,12 +566,11 @@ footer .terms .other-stuff ul li a
     /* section a */
     main .section_a
     {
-        padding: 5rem;
+        padding: 1rem;
 
         text-align: center;
-
-        background: #e66d6d;
     }
+
     main .section_a p
     {
         padding: 1rem;
@@ -584,7 +581,9 @@ footer .terms .other-stuff ul li a
         font-family: outline;
         font-size: 3rem;
         font-weight: 5;
-padding-top: 2rem;
+
+        padding-top: 2rem;
+
         text-align: center;
         text-transform: uppercase;
 
@@ -593,9 +592,9 @@ padding-top: 2rem;
 
     main .section_a .section_a2
     {
-        width: 70vw;
-        margin: auto;
+
         padding: 1rem;
+        width: 60vw;
 
         color: rgb(51, 51, 51);
     }
