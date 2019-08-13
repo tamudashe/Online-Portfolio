@@ -46,11 +46,15 @@ a
 
     color: rgba(51, 51, 51, .6);
 }
-h3{
+h3
+{
     font-size: 1.2em;
 }
-h4{
-    font-size: 1em;
+h4
+{
+    font-family: outline;
+    font-size: 1.2rem;
+    font-style: italic;
 }
 ul
 {
@@ -252,7 +256,6 @@ main .section_a1
     height: 70vh;
 
     background: rgb(51, 51, 51);
-    /* background: #e66d6d; */
 }
 
 main p,
@@ -268,12 +271,15 @@ main p1
     color: rgba(51, 51, 51, .6);
 }
 
-/* section c */
-main .section_c
-{
-
+/* section b  */
+main .section_b ul  li img{
+    border-radius: .4rem;
+}
+main .section_b ul  li {
+    border-radius: .4rem .4rem 0 0;
 }
 
+/* section c */
 main .section_c h2
 {
     padding-top: 2em;
@@ -281,10 +287,62 @@ main .section_c h2
 
     text-align: center;
 }
-main .section_c .e_a .exp_content ul{
+main .section_c .e_a .exp_content ul li
+{
     list-style-type: circle;
 }
+main .section_c .e_a
+{
+    padding: 2rem;
+    border-radius: .4rem;
+    background: #ddd;
+    margin-bottom: 1rem;
+}
+main .section_c .e_a .e-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .section_c .e_a .e-link i {
+    color: #e66d6d;
+    padding: .5rem;
+}
+main .section_c .e_a .e-link .ion-md-remove {
+    display: none;
+}
+main .section_c .e_a .exp_content {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background: #b1b1b1;
+    border-radius: 0 .4rem .4rem 0;
+    padding: .2rem;
+    transition: max-height 700ms;
+}
+main .section_c .e_a .exp_content::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #e66d6d;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+main .section_c .e_a .exp_content {
+    padding-left: 2rem;
+}
 
+main .section_c .e_a:target .exp_content {
+    max-height: 20rem;
+}
+main .section_c .e_a:target .e-link .ion-md-add {
+    display: none;
+}
+main .section_c .e_a:target .e-link .ion-md-remove {
+    display: block;
+}
 
 
 /*Footer*/
@@ -320,10 +378,12 @@ footer .terms .other-stuff ul li a
 /*Media Queries*/
 @media screen and (min-width: 760px) and (max-width: 1800px)
 {
-    h3{
+    h3
+    {
         font-size: 2rem;
     }
-    h4{
+    h4
+    {
         font-size: 1rem;
     }
     /*Header*/
@@ -384,7 +444,7 @@ footer .terms .other-stuff ul li a
         height: 70vh;
 
         background-image: linear-gradient(rgba(51, 51, 51, .98), rgba(51, 51, 51, .98)),
-        url("https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        url('https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
         background-size: cover;
     }
     main .section_a1 h1
@@ -470,15 +530,16 @@ footer .terms .other-stuff ul li a
     }
     main .section_b ul li
     {
+        border-radius: .4rem;
         background: #eee;
     }
 
     /* section c */
     main .section_c
     {
-        padding: 0 10vw 10vw 10vw;
         width: 60vw;
         margin: auto;
+        padding: 0 10vw 10vw 10vw;
     }
 
     main .section_c h2
