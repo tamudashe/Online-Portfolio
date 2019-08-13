@@ -271,21 +271,99 @@ main p1
     color: rgba(51, 51, 51, .6);
 }
 
-/* section b  */
-main .section_b ul  li img{
-    border-radius: .4rem;
+/* section a1 */
+main .section_a1
+{
+    height: 60vh;
+    background-image: linear-gradient(rgba(51, 51, 51, .98), rgba(51, 51, 51, .98)),
+    url('https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
 }
-main .section_b ul  li {
-    border-radius: .4rem .4rem 0 0;
+main .section_a1 h1
+{
+    font-family: outline;
+    font-size: 1rem;
+    font-weight: 5;
+
+    padding-top: 30vh;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #e66d6d;
+}
+main .section_a1 span
+{
+    color: #eee;
+}
+/* section a */
+main .section_a
+{
+    text-align: center;
+    background: #e66d6d;
+}
+main .section_a p
+{
+    padding: 1rem;
+}
+
+main .section_a .section_a2 h2
+{
+    font-family: outline;
+    font-size: 3rem;
+    font-weight: 5;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ddd;
+}
+
+main .section_a .section_a2
+{
+    width: 70vw;
+    margin: auto;
+    padding: 1rem;
+
+    color: rgb(51, 51, 51);
+}
+
+/* section b  */
+main .section_b h2
+{
+    font-family: outline;
+    font-size: 3rem;
+    font-weight: 5;
+
+    padding: 1.5rem 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgb(51, 51, 51);
+}
+main .section_b
+{
+    background: #ddd;
+}
+main .section_b ul li
+{
+    border-radius: .4rem;
+    background: #eee;
 }
 
 /* section c */
+
 main .section_c h2
 {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    font-family: outline;
+    font-size: 3rem;
+    font-weight: 5;
 
     text-align: center;
+    text-transform: uppercase;
+
+    color: #171717;
 }
 main .section_c .e_a .exp_content ul li
 {
@@ -500,6 +578,12 @@ footer .terms .other-stuff ul li a
         color: rgb(51, 51, 51);
     }
     /* section b */
+    main .section_b ul  li img{
+        border-radius: .4rem;
+    }
+    main .section_b ul  li {
+        border-radius: .4rem .4rem 0 0;
+    }
     main .section_b h2
     {
         font-family: outline;
