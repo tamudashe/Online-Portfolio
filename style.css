@@ -301,6 +301,7 @@ main .section_a1 span
 main .section_a
 {
     text-align: center;
+
     background: #e66d6d;
 }
 main .section_a p
@@ -322,10 +323,10 @@ main .section_a .section_a2 h2
 
 main .section_a .section_a2
 {
+    margin: auto;
     padding: 1rem;
 
     color: rgb(51, 51, 51);
-    margin: auto;
 }
 
 /* section b  */
@@ -548,15 +549,21 @@ footer .terms .other-stuff ul li a
     main .section_a1 h1
     {
         font-family: outline;
-        font-size: 3rem;
-        font-weight: 5;
+        font-size: 4rem;
+        font-weight: 900;
 
-        padding-top: 30vh;
+        padding-top: 25vh;
 
         text-align: center;
         text-transform: uppercase;
 
         color: #e66d6d;
+
+        background: url("https://images.pexels.com/photos/226589/pexels-photo-226589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-size: cover;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
     }
     main .section_a1 span
     {
@@ -592,9 +599,8 @@ footer .terms .other-stuff ul li a
 
     main .section_a .section_a2
     {
-
-        padding: 1rem;
         width: 60vw;
+        padding: 1rem;
 
         color: rgb(51, 51, 51);
     }
