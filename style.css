@@ -143,6 +143,7 @@ footer ul li {display: inline-block;}
         border-radius: .5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
     }
+
     main .section-a .cover {
         width: 60vw;
         height: 60vh;
@@ -152,7 +153,10 @@ footer ul li {display: inline-block;}
         grid-template-rows: 3fr 2fr 3fr;
         grid-template-columns: 3fr 2fr 3fr;
     }
+
     main .section-a .left {
+        width: 60vh;
+        height: 60vh;
         border-radius: 2rem;
         background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('media/tamudashePortrait.JPG');
         background-size: cover;
